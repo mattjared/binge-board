@@ -3,14 +3,13 @@ import { data } from './data.js';
 import Button from './Button';
 import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-127457647-1');
+ReactGA.pageview('/homepage');
+
 class App extends Component {
-  initializeReactGA() {
-    ReactGA.initialize('UA-127457647-1');
-    ReactGA.pageview('/homepage');
-  }
   render() {
     return (
-      <div className="App" onLoad={this.initializeReactGA}>
+      <div className="App">
         <h2 className="App-header">Binge Board</h2>
         <div className="App-wrapper">
           {data.map((d, i) => {
