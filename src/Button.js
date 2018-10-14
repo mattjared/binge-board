@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
-import './Button.css';
 
 class Button extends Component {
   constructor(props) {
@@ -8,9 +7,7 @@ class Button extends Component {
     this.playAudio = this.playAudio.bind(this);
   }
   playAudio() {
-    // console.log(this.props.name, this.props.audio);
-    var audio = new Audio(this.props.audio);
-    audio.play();
+    new Audio(this.props.audio).play();
   }
   render() {
     return(

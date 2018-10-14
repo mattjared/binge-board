@@ -5,6 +5,6 @@ export const data = [
   },
   {
     "name": "Tough look for my guy",
-    "audio": '/path/to/filez',
+    "audio": '/sounds/cardinal.mp3',
   },
 ] 
