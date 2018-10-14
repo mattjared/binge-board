@@ -8,7 +8,9 @@ class Button extends Component {
     this.playAudio = this.playAudio.bind(this);
   }
   playAudio() {
-    console.log(this.props.name, this.props.audio);
+    // console.log(this.props.name, this.props.audio);
+    var audio = new Audio(this.props.audio);
+    audio.play();
   }
   render() {
     return(
