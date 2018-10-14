@@ -2,7 +2,7 @@
   "name": "binge-board",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mattjared.github.io/binge-board/",
+  "homepage": "http://bingeboard.website",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
