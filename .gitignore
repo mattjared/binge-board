@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -82,4 +81,3 @@ typings/
 
 # next.js build output
 .next
->>>>>>> 7f1f60a2714ed55466f913de5e43db2f6e770457
