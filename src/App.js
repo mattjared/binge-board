@@ -3,8 +3,10 @@ import { data } from './data.js';
 import Button from './Button';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-127457647-1');
-ReactGA.pageview('/homepage');
+if (process.env.NODE_ENV === 'production') {
+  ReactGA.initialize('UA-127457647-1');
+  ReactGA.pageview('/homepage');
+}
 
 class App extends Component {
   render() {
