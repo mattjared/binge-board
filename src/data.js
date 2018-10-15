@@ -1,6 +1,6 @@
 export const data = [
   {
-    "name": "Hellooooo",
+    "name": "Helllloooooooo",
     "audio": 'http://www.noiseaddicts.com/samples_1w72b820/286.mp3',
   },
   {
@@ -8,7 +8,15 @@ export const data = [
     "audio": './sounds/cardinal.mp3',
   },
   {
-    "name": "DIDJA PUTYA NAME IN DA GOBLET A FIYA",
+    "name": "DIDJA PUTYA",
+    "audio": './sounds/cardinal.mp3',
+  },
+  {
+    "name": "What a great website",
+    "audio": './sounds/cardinal.mp3',
+  },
+  {
+    "name": "What a great website",
     "audio": './sounds/cardinal.mp3',
   },
 ] 

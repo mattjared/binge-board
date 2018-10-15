@@ -74,13 +74,16 @@ body {
   margin: 3rem auto 0;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: .5rem;
 }
 .button {
   background-color: blue;
-  border-radius: .5rem;
   color: white;
-  font-size: 120%;
+  font-size: 110%;
   outline: none;
-  padding: .5rem;
-  font-weight: 700;
+  padding: .75rem;
+  font-weight: 500;
+  margin: 1rem;
 }
