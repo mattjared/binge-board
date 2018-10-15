@@ -3,16 +3,14 @@ import { data } from './data.js';
 import Button from './Button';
 import ReactGA from 'react-ga';
 
-if (process.env.NODE_ENV === 'production') {
-  ReactGA.initialize('UA-127457647-1');
-  ReactGA.pageview('/homepage');
-}
+ReactGA.initialize('UA-127457647-1');
+ReactGA.pageview('/homepage');
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2 className="App-header">Binge Board</h2>
+        <h2>BINGE <span role="img" aria-label="Lightning Bolt">⚡</span>️ BOARD</h2>
         <div className="App-wrapper">
           {data.map((d, i) => {
             return (

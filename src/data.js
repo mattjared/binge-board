@@ -7,4 +7,8 @@ export const data = [
     "name": "Tough look for my guy",
     "audio": './sounds/cardinal.mp3',
   },
+  {
+    "name": "DIDJA PUTYA NAME IN DA GOBLET A FIYA",
+    "audio": './sounds/cardinal.mp3',
+  },
 ] 
