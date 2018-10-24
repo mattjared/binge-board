@@ -1,1 +1,1 @@
-Clearing out the boilerplate
+A soundboard from some of Jason and Mal's best one-liners. To add more buttons please fill out an [issue](https://github.com/mattjared/binge-board/issues/new) that includes the audio.
