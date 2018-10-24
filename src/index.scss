@@ -53,11 +53,11 @@ body {
 
   h2 {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
     margin: 0;
     z-index: 100;
     position: relative;
-    font-size: calc(40px + 2vmin);
+    font-size: calc(40px + 5vmin);
     text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.3);
     font-weight: 800;
     color: white;
@@ -79,11 +79,13 @@ body {
   border-radius: .5rem;
 }
 .button {
-  background-color: blue;
+  background-color: darken(gray, 25%);
+  border-radius: .25rem;
   color: white;
-  font-size: 110%;
-  outline: none;
-  padding: .75rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
   font-weight: 500;
   margin: 1rem;
+  outline: none;
+  padding: .75rem;
 }

@@ -1,7 +1,7 @@
 export const data = [
   {
-    "name": "Helllloooooooo",
-    "audio": 'http://www.noiseaddicts.com/samples_1w72b820/286.mp3',
+    "name": "Hellooooooo",
+    "audio": './sounds/hellooooooo.mp3',
   },
   {
     "name": "Tough look for my guy",
