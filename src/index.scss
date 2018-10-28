@@ -4,9 +4,7 @@ $darkPink: rgb(222, 0, 195);
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Exo 2', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -52,40 +50,80 @@ body {
   }
 
   h2 {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
     margin: 0;
     z-index: 100;
     position: relative;
-    font-size: calc(40px + 5vmin);
+    font-size: calc(32px + 2.5vmin);
     text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.3);
     font-weight: 800;
     color: white;
+    
+    @media (min-width: 576px) {
+      font-size: calc(40px + 5vmin);
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
   }
 }
 .App-wrapper {
-  background-color: white;
-  padding: 1rem;
   margin-bottom: 1rem;
   position: relative;
   z-index: 100;
   min-height: 100%;
-  max-width: 75%;
-  margin: 3rem auto 0;
+  max-width: 90%;
+  margin: 1rem auto 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: .5rem;
+  
+  @media (min-width: 576px) {
+    margin-top: 3rem;
+    max-width: 75%;
+    padding: 1rem;
+  }
 }
 .button {
-  background-color: darken(gray, 25%);
+  background-color: white;
   border-radius: .25rem;
-  color: white;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin: 1rem;
+  border: none;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color: lighten(black, 10%);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem 0;
   outline: none;
-  padding: .75rem;
+  padding: .5rem;
+  transition: all .25s cubic-bezier(0, 0.26, 0, 1.18);
+  width: 45%;
+  
+  &:focus,
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    cursor: pointer;
+  }
+  
+  @media (min-width: 576px) {
+    font-size: 1.25rem;
+    margin: 1.5rem;
+    padding: 1.25rem;
+    width: auto;
+  }
+}
+.App-footer {
+  position: relative;
+  z-index: 200;
+  padding-top: 1rem;
+
+  p {
+    margin: 0;
+    font-size: .75rem;
+    padding: 1.5rem;
+
+    a {
+      color: black;
+    }
+  }
 }

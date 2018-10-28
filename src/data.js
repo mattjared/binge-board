@@ -8,15 +8,7 @@ export const data = [
     "audio": './sounds/cardinal.mp3',
   },
   {
-    "name": "DIDJA PUTYA",
-    "audio": './sounds/cardinal.mp3',
-  },
-  {
-    "name": "What a great website",
-    "audio": './sounds/cardinal.mp3',
-  },
-  {
-    "name": "What a great website",
-    "audio": './sounds/cardinal.mp3',
-  },
+    "name": "Seamus 🔥",
+    "audio": './sounds/seamus.mp3',
+  }
 ] 

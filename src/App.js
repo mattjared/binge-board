@@ -8,6 +8,8 @@ ReactGA.pageview('/homepage');
 
 class App extends Component {
   render() {
+    const date = new Date();
+    const year = date.getFullYear();
     return (
       <div className="App">
         <h2>BINGE <span role="img" aria-label="Lightning Bolt">⚡</span>️ BOARD</h2>
@@ -22,6 +24,9 @@ class App extends Component {
               />
             ) 
           })}
+        </div>
+        <div className="App-footer">
+          <p>Copyright &copy; { year }. Have feedback or want to add a new clip? <a href="https://github.com/mattjared/binge-board/issues/new" target="_blank" rel="noopener noreferrer">Fill out an issue on Github!</a></p>
         </div>
       </div>
     );

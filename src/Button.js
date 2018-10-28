@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
+import ReactGA from 'react-ga';
 
 class Button extends Component {
   constructor(props) {
@@ -8,6 +9,10 @@ class Button extends Component {
   }
   playAudio() {
     new Audio(this.props.audio).play();
+    ReactGA.event({
+      category: 'Button Click',
+      action: this.props.name,
+  });
   }
   render() {
     return(
