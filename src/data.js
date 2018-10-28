@@ -1,4 +1,7 @@
-export const data = [
+import _ from 'underscore';
+
+const randomInt = Math.floor(Math.random() * 3) + 1;
+const data = [
   {
     "name": "Hellooooooo",
     "audio": './sounds/hellooooooo.mp3',
@@ -8,15 +11,23 @@ export const data = [
     "audio": './sounds/cardinal.mp3',
   },
   {
-    "name": "💸  Bag Man",
+    "name": "💸  MONEY",
     "audio": './sounds/money.mp3',
   },
   {
-    "name": "Seamus 🔥",
+    "name": "🔥 Seamus",
     "audio": './sounds/seamus.mp3',
   },
   {
-    "name": "McGalleon Needs Her Fix 💰",
+    "name": "Oh. Wow!",
+    "audio": './sounds/ohwow.mp3',
+  },
+  {
+    "name": "🚨 Spoiler Warning",
+    "audio": './sounds/spoilerwarning.mp3',
+  },
+  {
+    "name": "💰 McGalleon Needs Her Fix",
     "audio": './sounds/mcgalleon.mp3',
   },
   {
@@ -28,7 +39,21 @@ export const data = [
     "audio": './sounds/whatagreatwebsite.mp3',
   },
   {
-    "name": "Fluer 👶",
-    "audio": ['./sounds/fluer1.mp3', './sounds/fluer2.mp3', './sounds/fluer3.mp3'],
+    "name": "👶 Fluer",
+    "audio": `./sounds/fluer${randomInt}.mp3`,
+  },
+  {
+    "name": "🦉 Protect Hedwig",
+    "audio": './sounds/protecthedwig.mp3',
+  },
+  {
+    "name": "🍺",
+    "audio": './sounds/holdtrue.mp3',
+  },
+  {
+    "name": "Ludo 'Literal Bag Man' Bagman",
+    "audio": './sounds/ludoliteral.mp3',
   },
 ] 
+
+export default _.shuffle(data);

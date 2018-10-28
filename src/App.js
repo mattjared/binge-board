@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { data } from './data.js';
+import data from './data.js';
 import Button from './Button';
 import ReactGA from 'react-ga';
 
