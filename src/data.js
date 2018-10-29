@@ -1,7 +1,7 @@
 import _ from 'underscore';
 
 // const randomInt = Math.floor(Math.random() * 4) + 1;
-const randomInt = 4;
+// const randomInt = 4;
 const data = [
   {
     "name": "👋 ",
@@ -12,15 +12,11 @@ const data = [
     "audio": './sounds/toughlook.mp3',
   },
   {
-    "name": "💸 ",
-    "audio": './sounds/money.mp3',
-  },
-  {
-    "name": "🔥 ",
+    "name": "👪",
     "audio": './sounds/seamus.mp3',
   },
   {
-    "name": "😲",
+    "name": "🍺",
     "audio": './sounds/ohwow.mp3',
   },
   {
@@ -37,7 +33,7 @@ const data = [
   },
   {
     "name": "👶 ",
-    "audio": `./sounds/fluer${randomInt}.mp3`,
+    "audio": `./sounds/fluer4.mp3`,
   },
   {
     "name": "🦉 ",
@@ -50,10 +46,6 @@ const data = [
   {
     "name": "🇫🇷",
     "audio": './sounds/beauxbatons.mp3',
-  },
-  {
-    "name": "🙇 ",
-    "audio": './sounds/deepcanon.mp3',
   },
   {
     "name": "🍆",
@@ -70,6 +62,10 @@ const data = [
   {
     "name": "😽",
     "audio": './sounds/supfiggy.mp3', 
+  },
+  {
+    "name": "🔮",
+    "audio": './sounds/deep.mp3', 
   }
   // {
   //   "name": "🍺"",
@@ -78,6 +74,10 @@ const data = [
   // {
   //   "name": "🚨 ",
   //   "audio": './sounds/spoilerwarning.mp3',
+  // },
+  // {
+  //   "name": "🙇 ",
+  //   "audio": './sounds/deepcanon.mp3',
   // },
 ] 
 
