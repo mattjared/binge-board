@@ -26,7 +26,7 @@ class App extends Component {
           })}
         </div>
         <div className="App-footer">
-          <p>Copyright &copy; { year }. Have feedback or want to add a new clip? <a href="https://github.com/mattjared/binge-board/issues/new" target="_blank" rel="noopener noreferrer">Fill out an issue on Github!</a></p>
+          <p>Source: The Ringer's <a href="https://www.theringer.com/binge-mode" target="blank">Binge Mode</a> podcast. Copyright &copy; { year }. Have feedback or want to add a new clip? <a href="https://github.com/mattjared/binge-board/issues/new" target="blank">Fill out an issue on Github!</a></p>
         </div>
       </div>
     );
