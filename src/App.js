@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <h2>BINGE <span role="img" aria-label="Lightning Bolt">⚡</span>️ BOARD</h2>
+        <p><span role="img" aria-label="Speaker">🔈</span> Sound on <span role="img" aria-label="Speaker">🔈</span></p>
         <div className="App-wrapper">
           {data.map((d, i) => {
             return (

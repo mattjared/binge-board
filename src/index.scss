@@ -62,7 +62,16 @@ body {
     @media (min-width: 576px) {
       font-size: calc(40px + 5vmin);
       padding-top: 4rem;
-      padding-bottom: 2rem;
+    }
+  }
+  p {
+    position: relative;
+    z-index: 100;color: white;
+    margin-top: 0;
+    font-size: .85rem;
+    
+    @media (min-width: 576px) {
+      padding-bottom: 2rem; 
     }
   }
 }
