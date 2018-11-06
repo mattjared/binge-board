@@ -36,7 +36,7 @@ class App extends Component {
               in={this.state.boardType}
               timeout={{ enter: 500, exit: 300 }}
             >
-              <span role="img" aria-label="Emoji">
+              <span >
                 {emoji}
               </span>
             </CSSTransition>
@@ -47,7 +47,7 @@ class App extends Component {
           {dataShown.map((d, i) => {
             return (
               <CSSTransition
-                key={i}
+                key={i+d.name}
                 timeout={500}
                 classNames="fade"
               > 

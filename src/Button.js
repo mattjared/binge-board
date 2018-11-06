@@ -12,7 +12,8 @@ class Button extends Component {
     ReactGA.event({
       category: 'Button Click',
       action: this.props.name,
-  });
+    });
+    console.log('hello')
   }
   render() {
     return(
