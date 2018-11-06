@@ -63,6 +63,10 @@ body {
       font-size: calc(40px + 5vmin);
       padding-top: 4rem;
     }
+
+    span {
+      display: inline-block;
+    }
   }
   p {
     position: relative;
@@ -123,16 +127,55 @@ body {
 .App-footer {
   padding-top: 4rem;
   color: lighten(black, 15%);
+  max-width: 90%;
+  margin: 0 auto;
   position: relative;
   z-index: 200;
-
+  
   p {
     margin: 0;
     font-size: .85rem;
     padding: 1.5rem;
-
+    
     a {
       color: lighten(black, 15%);
     }
   }
+  @media (min-width: 576px) {
+    max-width: 60%;
+  }
+}
+
+.example-enter {
+  transform: scale(1) rotate(0);
+}
+.example-enter.example-enter-active {
+  transform: scale(1.5) rotate(90deg);
+  transition: transform .3s ease-in;
+}
+.example-exit {
+  transform: scale(1.5) rotate(-90deg);
+}
+.example-exit.example-exit-active {
+  transform: scale(1) rotate(0);
+  transition: transform .3s ease-in;
+}
+
+.fade-enter {
+  opacity: 0.01;
+  transform: scale(1) translateX(0);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1.15) translateX(-16px);
+  transition: all 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+  transform: scale(1.15) translateX(-16px);
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transform: scale(1) translateX(0);
+  transition: all 500ms ease-in;
 }

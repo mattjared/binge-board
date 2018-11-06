@@ -1,84 +1,101 @@
 import _ from 'underscore';
 
-// const randomInt = Math.floor(Math.random() * 4) + 1;
-// const randomInt = 4;
 const data = [
   {
     "name": "👋 ",
-    "audio": './sounds/hellooooooo.mp3',
+    "audio": "./sounds/hellooooooo.mp",
+    "boardType": "potter"
   },
   {
     "name": "🤦‍♂️",
-    "audio": './sounds/toughlook.mp3',
+    "audio": "./sounds/toughlook.mp",
+    "boardType": "potter"
   },
   {
     "name": "👪",
-    "audio": './sounds/seamus.mp3',
+    "audio": "./sounds/seamus.mp",
+    "boardType": "potter"
   },
   {
     "name": "🍺",
-    "audio": './sounds/ohwow.mp3',
+    "audio": "./sounds/ohwow.mp",
+    "boardType": "potter"
   },
   {
     "name": "🏆 ",
-    "audio": './sounds/mcgalleon.mp3',
+    "audio": "./sounds/mcgalleon.mp",
+    "boardType": "potter"
   },
   {
     "name": "🚨",
-    "audio": './sounds/warning.mp3',
+    "audio": "./sounds/warning.mp",
+    "boardType": "potter"
   },
   {
     "name": "💻 ",
-    "audio": './sounds/whatagreatwebsite.mp3',
+    "audio": "./sounds/whatagreatwebsite.mp",
+    "boardType": "potter"
   },
   {
     "name": "👶 ",
-    "audio": `./sounds/fluer4.mp3`,
+    "audio": "./sounds/fluer4.mp",
+    "boardType": "potter"
   },
   {
     "name": "🦉 ",
-    "audio": './sounds/protecthedwig.mp3',
+    "audio": "./sounds/protecthedwig.mp",
+    "boardType": "potter"
   },
   {
     "name": "💰 ",
-    "audio": './sounds/ludoliteral.mp3',
+    "audio": "./sounds/ludoliteral.mp",
+    "boardType": "potter"
   },
   {
     "name": "🇫🇷",
-    "audio": './sounds/beauxbatons.mp3',
+    "audio": "./sounds/beauxbatons.mp",
+    "boardType": "potter"
   },
   {
     "name": "🍆",
-    "audio": './sounds/vik.mp3',
+    "audio": "./sounds/vik.mp",
+    "boardType": "potter"
   },
   {
     "name": "👬 ",
-    "audio": './sounds/mygoodfriendtom.mp3',
+    "audio": "./sounds/mygoodfriendtom.mp",
+    "boardType": "potter"
   },
   {
     "name": "🏰 ",
-    "audio": './sounds/nosaferplace.mp3',
+    "audio": "./sounds/nosaferplace.mp",
+    "boardType": "potter"
   },
   {
     "name": "😽",
-    "audio": './sounds/supfiggy.mp3', 
+    "audio": "./sounds/supfiggy.mp3", 
+    "boardType": "potter"
   },
   {
     "name": "🔮",
-    "audio": './sounds/deep.mp3', 
+    "audio": "./sounds/deep.mp3", 
+    "boardType": "potter"
+  },
+  {
+    "name": "🛑",
+    "audio": "./sounds/nosaferplace.mp",
+    "boardType": "thrones"
+  },
+  {
+    "name": "🛑",
+    "audio": "./sounds/supfiggy.mp3", 
+    "boardType": "thrones"
+  },
+  {
+    "name": "🛑",
+    "audio": "./sounds/deep.mp3", 
+    "boardType": "thrones"
   }
-  // {
-  //   "name": "🍺"",
-  //   "audio": './sounds/holdtrue.mp3',
-  // },
-  // {
-  //   "name": "🚨 ",
-  //   "audio": './sounds/spoilerwarning.mp3',
-  // },
-  // {
-  //   "name": "🙇 ",
-  //   "audio": './sounds/deepcanon.mp3',
-  // },
 ] 
 
 export default _.shuffle(data);
