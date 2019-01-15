@@ -2,9 +2,9 @@ import _ from 'underscore';
 
 // const randomInt = Math.floor(Math.random() * 4) + 1;
 // const randomInt = 4;
-const data = [
+const potter = [
   {
-    "name": "👋 ",
+    "name": "👋",
     "audio": './sounds/hellooooooo.mp3',
   },
   {
@@ -20,7 +20,7 @@ const data = [
     "audio": './sounds/ohwow.mp3',
   },
   {
-    "name": "🏆 ",
+    "name": "🏆",
     "audio": './sounds/mcgalleon.mp3',
   },
   {
@@ -28,19 +28,19 @@ const data = [
     "audio": './sounds/warning.mp3',
   },
   {
-    "name": "💻 ",
+    "name": "💻",
     "audio": './sounds/whatagreatwebsite.mp3',
   },
   {
-    "name": "👶 ",
+    "name": "👶",
     "audio": `./sounds/fluer4.mp3`,
   },
   {
-    "name": "🦉 ",
+    "name": "🦉",
     "audio": './sounds/protecthedwig.mp3',
   },
   {
-    "name": "💰 ",
+    "name": "💰",
     "audio": './sounds/ludoliteral.mp3',
   },
   {
@@ -81,4 +81,4 @@ const data = [
   // },
 ] 
 
-export default _.shuffle(data);
+export default _.shuffle(potter);
