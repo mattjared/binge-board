@@ -136,3 +136,27 @@ body {
     }
   }
 }
+
+.card-enter {
+  opacity: 0.01;
+  background-color: white;
+  transform: scale(0.9) translateY(50%);
+}
+.card-enter-active {
+  opacity: 1;
+  background-color: orange;
+  transform: scale(1) translateY(0%);
+  transition: all 3000ms ease-out;
+}
+.card-exit {
+  opacity: 1;
+  background-color: orange;
+  transform: scale(1) translateY(0%);
+}
+.card-exit-active {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(50%);
+  transition: all 3000ms ease-out;
+  background-color: white;
+}
+
