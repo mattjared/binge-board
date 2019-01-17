@@ -2,9 +2,33 @@ import _ from 'underscore';
 
 const got = [
   {
-    "name": "🙇 ",
+    "name": "🙇",
     "audio": './sounds/deepcanon.mp3',
-  }
+  },
+  {
+    "name": "🙇",
+    "audio": './sounds/deepcanon.mp3',
+  },
+  {
+    "name": "🙇",
+    "audio": './sounds/deepcanon.mp3',
+  },
+  {
+    "name": "🙇",
+    "audio": './sounds/deepcanon.mp3',
+  },
+  {
+    "name": "🙇",
+    "audio": './sounds/deepcanon.mp3',
+  },
+  {
+    "name": "🙇",
+    "audio": './sounds/deepcanon.mp3',
+  },
+  {
+    "name": "🙇",
+    "audio": './sounds/deepcanon.mp3',
+  },
 ] 
 
 export default _.shuffle(got);

@@ -94,7 +94,7 @@ body {
     padding: 1rem;
   }
 }
-.button {
+.btn {
   background-color: white;
   border-radius: .25rem;
   border: none;
@@ -119,6 +119,34 @@ body {
     padding: 1.25rem;
     width: auto;
   }
+  &-enter {
+    opacity: 0.01;
+    background-color: white;
+    transform: scale(1) translateY(5%);
+  }
+  &-enter-active {
+    opacity: 1;
+    transform: scale(1.2) translateY(0%);
+    transition: all 300ms ease-out;
+    margin-right: 0rem;
+  }
+  &-exit {
+    opacity: 1;
+    transform: scale(1.2) translateY(0%);
+    margin-right: 0rem;
+  }
+  &-exit-active {
+    opacity: 0.01;
+    transform: scale(1) translateY(5%);
+    transition: all 300ms ease-out;
+    background-color: white;
+    margin-right: 0;
+  }
+}
+@for $i from 1 through 30 {
+  .btn:nth-child(#{$i}n) {
+    transition-delay: #{$i * 0.05}s;
+  }
 }
 .App-footer {
   padding-top: 4rem;
@@ -136,27 +164,3 @@ body {
     }
   }
 }
-
-.card-enter {
-  opacity: 0.01;
-  background-color: white;
-  transform: scale(0.9) translateY(50%);
-}
-.card-enter-active {
-  opacity: 1;
-  background-color: orange;
-  transform: scale(1) translateY(0%);
-  transition: all 3000ms ease-out;
-}
-.card-exit {
-  opacity: 1;
-  background-color: orange;
-  transform: scale(1) translateY(0%);
-}
-.card-exit-active {
-  opacity: 0.01;
-  transform: scale(0.9) translateY(50%);
-  transition: all 3000ms ease-out;
-  background-color: white;
-}
-
