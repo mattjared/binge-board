@@ -66,7 +66,11 @@ const potter = [
   {
     "name": "🔮",
     "audio": './sounds/deep.mp3', 
-  }
+  },
+  {
+    "name": "🎶",
+    "audio": './sounds/music.mp3', 
+  },
   // {
   //   "name": "🍺"",
   //   "audio": './sounds/holdtrue.mp3',
