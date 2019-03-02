@@ -14,7 +14,7 @@ class App extends Component {
     super(props);
     this.changeBoard = this.changeBoard.bind(this);
     this.state = {
-      boardType: true,
+      boardType: false,
     }
   }
   changeBoard() {
@@ -57,7 +57,7 @@ class App extends Component {
           )})}
         </TransitionGroup>
         <div className="App-footer">
-          <p>Source: The Ringer's <a href="https://www.theringer.com/binge-mode" target="blank">Binge Mode</a> podcast. Copyright &copy; { year }. Enjoy using the Binge Board? <a href="https://buymeacoff.ee/mattjared" target="_blank" rel="noopener noreferrer">Buy me a coffee!</a></p>
+          <p>Source: The Ringer's <a href="https://www.theringer.com/binge-mode" target="blank">Binge Mode</a> podcast. Copyright &copy; { year }. Enjoy using the Binge Board? <a href="https://buymeacoff.ee/mattjared" target="_blank" rel="noopener noreferrer">Buy me a coffee!</a> P.S. Click the Binge Board headline to toggle between Thrones and Potter.</p>
         </div>
       </div>
     );
