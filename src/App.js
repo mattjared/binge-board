@@ -36,7 +36,11 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h2 onClick={this.changeBoard}>BINGE<span role="img" aria-label="Lightning Bolt">&nbsp;{emoji}&nbsp;</span>️BOARD</h2>
+        <h2 onClick={this.changeBoard} className="headline">
+          BINGE
+          <span role="img" aria-label="Lightning Bolt">&nbsp;{emoji}&nbsp;</span>
+          BOARD
+        </h2>
         <p><span role="img" aria-label="Speaker">🔈</span> Sound on <span role="img" aria-label="Speaker">🔈</span></p>
         <TransitionGroup className="App-wrapper">
           {data.map((d, i) => {
