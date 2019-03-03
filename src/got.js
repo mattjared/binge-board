@@ -49,6 +49,14 @@ const got = [
     "name": "🗡",
     "audio": './sounds/stabbing.mp3',
   },
+  {
+    "name": "📚",
+    "audio": './sounds/books.mp3',
+  },
+  {
+    "name": "🤺",
+    "audio": './sounds/kos.mp3',
+  },
 ] 
 
 export default _.shuffle(got);
